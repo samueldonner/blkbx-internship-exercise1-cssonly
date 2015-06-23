@@ -13,7 +13,7 @@
 		</div>
 		<div style="margin-left: auto; margin-right: auto; width: 700px;">
 			<img src="number1.jpg" style="float:left;"/>
-			<div style="margin-left: auto; width: 520px; float:right;">
+			<div style="margin-left: auto; width: 540px; float:right;">
 				<span style="font-family: arial; color:white;">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to HTML layout 1! We are going to play with a few basic things here, mainly basic markup for layouts. We will not be using and CSS for this exercise. All styling and formatting should be done only with basic HTML tags. For example, this should be
 				</span> 
@@ -30,6 +30,17 @@
 					</span>
 				</p>
 			</div>
+
+				<div style="position:relative; top: 100px;">
+					<img style="float:left;" src="arrowleft.jpg"/>	
+					<img style="float:right;" src="arrowright.jpg"/>	
+				</div>
+				<div style="position:absolute; z-index:-1; top: 350px; text-align: center; margin-left:215px;">
+					<span style="font-family: arial; color:white;">
+						The content area should be 700px wide.
+						<p>(and this should be centered)</p>
+					</span>
+				</div>
 		</div>
 	</body>
 </html>		
